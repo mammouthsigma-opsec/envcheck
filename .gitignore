@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Packaging / tooling
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
